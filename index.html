@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+     <!-- MENU ENCABEZADO -->
+     <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">RAFAEL</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Rafael Pérez</h1>
+            <h3>Desarrollador Wordpress <br> Community Manager</h3>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, mi nombre es Rafael Pérez Perdomo,</span> soy un desarrollador WordPress con más de 4 años de experiencia en donde he desarrollado 
+                diferentes proyectos con plugins como Elementor Pro, Woocommerce, Dokan, ACF, Learndash, Yoast SEO, 
+                generando de forma práctica sólidos conocimientos en estos y muchos otros plugins, asi como en el 
+                manejo profesional del panel de control de WP; Tengo conocimientos en HTML y CSS los cuales estoy 
+                ampliando desde el año 2022, ya que tengo como meta completar 3 líneas de aprendizaje para 2023-2024: <br> 
+                <li>Aprender a crear plugins y temas en WP.</li>
+                <li>Convertirme en Desarrollador Frontend con HTML, CSS, JS y React.</li>
+                <li>Convertirme en Desarrollador Fullstack aprendiendo PHP, SQL, MySQL y Laravel.</li> 
+                Para lograrlo, ya tengo mi ruta de aprendizaje trazada en la plataforma Platzi y un máster en PHP en Udemy. <br><br>Soy Community Manager con 3 años de experiencia en los cuales me he desempeñado en el manejo de 
+                redes sociales para emprendedores, e inclusive he dictado cursos online en esta area. Soy Técnico en reparación de computadoras y redes, 
+                con 20 años de experiencia. Tengo conocimientos en SEO, E-Commerce, CANVA, Spotify, edición y montaje de video, redacción 
+                y en otras áreas relacionadas. <br>
+                Quiero concluir mencionado que me mantengo en constante aprendizaje, todos mis conocimientos 
+                han sido con base en la práctica, al trabajo, a cursos, tanto pagos como gratuitos, y a tutoriales 
+                en youtube. Para compensar mi falta de conocimiento algunas áreas, me apoyo en mi motivación constante 
+                para seguir aprendiendo y en mi habilidad de aprendizaje acelerado.</p> <br><br>
+
+                <div class="fila">
+                    <!-- datos personales-->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                21-02-1984
+                            </li>
+                            <li>
+                                <strong>Telefono</strong>
+                                +584126808183
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                ernestoperezromero@gmail.com
+                            </li>
+                            <li>
+                                <strong>Dirección</strong>
+                                Barquisimeto, Venezuela.
+                            </li>
+                            <li>
+                                <strong>Cargo</strong>
+                                <span>Desarrollador Wordpress</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>CODIGO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>CINE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-readme"></i>
+                            <span>LEER</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-kitchen-set"></i>
+                            <span>COCINA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-children"></i>
+                            <span>FAMILIA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-leaf"></i>
+                            <span>NATURALEZA</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso html">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso css">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>WORDPRESS</span>
+                        <div class="barra-skill">
+                            <div class="progreso wordpress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Elementor PRO</span>
+                        <div class="barra-skill">
+                            <div class="progreso elementorpro">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Woocommerce</span>
+                        <div class="barra-skill">
+                            <div class="progreso woocommerce">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Advanced Custom Fields</span>
+                        <div class="barra-skill">
+                            <div class="progreso advancedcustomfields">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Dokan</span>
+                        <div class="barra-skill">
+                            <div class="progreso dokan">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Communiy Manager</span>
+                        <div class="barra-skill">
+                            <div class="progreso communitymanager">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>SEO</span>
+                        <div class="barra-skill">
+                            <div class="progreso seo">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>E-Commerce</span>
+                        <div class="barra-skill">
+                            <div class="progreso ecommerce">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>CANVA</span>
+                        <div class="barra-skill">
+                            <div class="progreso canva">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>SPOTIFY</span>
+                        <div class="barra-skill">
+                            <div class="progreso spotify">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso trabajoenequipo">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Puntualidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso puntualidad">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Aprendizaje</span>
+                        <div class="barra-skill">
+                            <div class="progreso aprendizaje">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Honestidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso honestidad">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+     <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Wordpress</h3>
+                        <p>No-code</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Wordpress</h3>
+                        <p>No-code</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Wordpress</h3>
+                        <p>No-code</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Wordpress</h3>
+                        <p>No-code</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Wordpress</h3>
+                        <p>No-code</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Wordpress</h3>
+                        <p>No-code</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- SECCION CONTACTO -->
+     <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Barquisimeto, Lara, Venezuela
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            +584126808183
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            ernestoperezromero77@gmail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </seccion>
+
+     <!-- FOOTER -->
+     <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
